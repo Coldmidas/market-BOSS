@@ -1,5 +1,6 @@
 @import 'base/variables';
 @import 'blocks/header';
+@import 'blocks/registration';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -21,7 +22,7 @@ h1, h3{
 }
 
 .btn {
-    padding: 40px 70px;
+   
     background: radial-gradient(140.32% 804.32% at 119.94% 100%, #820EAD 0%, #B262CA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     border: 1.25591px solid #BC6CD5;
     border-radius: 75.3543px;
