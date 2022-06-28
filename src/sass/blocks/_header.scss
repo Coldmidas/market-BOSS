@@ -1,0 +1,193 @@
+.header {
+    padding: 0 30px 0 0;
+    background: url('../../img/Первый\ экран.jpg') center center/cover no-repeat;
+    max-height: 1124px;
+    // .header__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex: 1 0 50%;
+        
+    }
+
+    // .header__left
+
+    &__left {
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+
+    // .header__logo
+
+    &__logo {
+        
+    }
+
+    // .header__duration
+
+    &__duration {
+        margin-left: 60px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-right: 45px;
+        span {
+            font-weight: 600;
+            line-height: 16px;
+
+        }
+
+
+    }
+
+    // .header__time
+
+    &__time {
+        font-weight: 300;
+        font-size: 16px;
+        color: #C9F32F;
+        line-height: 16px;
+        span {
+           
+            line-height: 16px;
+            color: #FFFFFF;
+
+        }
+
+    }
+
+    // .header__right
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding-top: 30px;
+    }
+
+    // .header__wrapper-link
+
+    &__wrapper-link {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+       
+       
+    }
+
+    &__link {
+        display: flex;
+        padding: 10px 20px;
+        height: 41px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #585858;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 118.4%;
+        color: #FFFFFF;  
+    }
+
+     // .header__title-name
+
+     &__title-name {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 118.4%;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+        span {
+            color: #C9F32F;
+        }
+    }
+
+    // .header__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 85px;
+        line-height: 110%;
+        letter-spacing: 0.025em;
+        margin-bottom: 35px;
+    }
+
+    // .header__content
+
+    &__content {
+        display: flex;
+       gap: 45px;
+       align-items: center;
+    }
+
+    // .header__circle
+
+    &__circle {
+       display: flex;
+       gap: 13px;
+       
+    }
+    &__circle-elem {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        // background: #8D21B4;
+        border: 2px solid #8D21B4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &:nth-last-child(1) {
+            background: #8D21B4;
+           }
+    }
+
+    // .header__subtitle
+
+    &__subtitle {
+       
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 118.4%;
+        margin-bottom: 35px;
+    }
+
+    // .header__btn
+
+    &__btn {
+        margin-bottom: 45px;
+    }
+
+    // .header__desc
+
+    &__desc {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 150%;
+        text-transform: uppercase;
+        letter-spacing: 0.17em;
+        color: #929292;
+        margin-bottom: 186px;
+    }
+}
+
+.devider {
+    max-width: 102%;
+   
+
+}
+
+nav {
+    margin-bottom: 130px;
+}
+
+
+
+   
+
+
