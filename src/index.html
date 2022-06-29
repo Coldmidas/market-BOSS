@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="1">
         <div class="container">
             <nav>
                <div class="header__wrapper">
@@ -74,25 +74,41 @@
                   </div>
                   
                 <div class="registration__field">
-                    <form class="form registration__form" action="">
-                        <input type="text" name="text" id="text" placeholder="Введите ваше имя ">
-                        <input type="tel" name="tel" id="tel" placeholder="+7(---)-- -- -- ">
-                        <input type="email" name="email" id="email" placeholder="Введите ваш e-mail">
+
+                    <form class="form registration__form"  action="https://docs.google.com/forms/d/e/1FAIpQLSeEKYughEfKs-chKwO9EmUIjnPe37P1en8qWz-ASDebXVi4Eg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                        <input type="text" name="entry.2005620554" id="text" placeholder="Введите ваше имя" required autocomplete="off"  jsname="YPqjbf"
+                        autocomplete="off"
+                        tabindex="0"
+                        aria-labelledby="i1"
+                        aria-describedby="i2 i3">
+                        <input type="tel" name="entry.1166974658" id="tel" placeholder="+7(---)-- -- -- " required autocomplete="off"  jsname="YPqjbf"
+                        aria-labelledby="i1"
+                        aria-describedby="i2 i3"
+                       >
+                        <input type="email" name="entry.1045781291" id="email" placeholder="Введите ваш e-mail" required autocomplete="off" type="email"
+                        aria-labelledby="i9"
+                        aria-describedby="i10 i11"
+                       >
                         <button type="submit" class="btn registration__btn">Записаться бесплатно</button>
                         <div class="checkbox-wrapper">
-                            <input type="checkbox" name="checkbox" id="checkbox" class="registration__checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" required class="registration__checkbox">
                         <label for="checkbox">Нажимая кнопку вы соглашаетесь <br> на обработку данных в соответствии<br>
                            <a href="#">с политикой обработки данных</a></label>
                         </div>
                     </form>
                     <div class="registration__box"><img  src="./img/Paper Box Mockup 1.png" alt="Box"></div>
-                    <div class="registration__hand"><img src="./img/Hand Female Mannequin Black.H05 1.png" alt=""></div>
+                    <!-- <div class="registration__hand"><img src="./img/Hand Female Mannequin Black.H05 1.png" alt=""></div> -->
                 </div>
-                  
               </div>
           </div>
         </section>
     </main>
     <footer></footer>
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='#1';}"></iframe>
+
 </body>
 </html>
