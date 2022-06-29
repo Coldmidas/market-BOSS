@@ -97,8 +97,10 @@
 
     // .registration__form
 
-    // &__form {
-    // }
+    &__form {
+        position: relative;
+        z-index: 9;
+     }
 
     // .registration__btn
 
@@ -136,8 +138,8 @@
 
 .form {
     margin-top: 30px;
-    position: relative;
-    z-index: 5;
+    // position: relative;
+    z-index: 9;
     width: 481px;
     height: 682px;
     display: flex;
@@ -148,11 +150,14 @@
     border-radius: 15px;
     gap: 30px;
     input {
+        position: relative;
         max-width: 361px;
         height: 100px;
         border-radius: 10px;
         padding: 40px 30px 40px 23px;
-
+        z-index: 11;
+        color: #0B0B0B;
+        display: block;
     }
 }
 // &__checkbox {
@@ -160,6 +165,8 @@
 // }
 
 label {
+    position: relative;
+    z-index: 12;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -172,9 +179,15 @@ label {
 
 
 .checkbox-wrapper {
+    position: relative;
+    z-index: 12;
     display: flex;
     align-items: center;
     gap: 17px;
     margin-left: 27px;
 }
 
+#checkbox {
+    position: relative;
+    
+}
